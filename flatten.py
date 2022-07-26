@@ -1,8 +1,7 @@
-"""Çok Mesaj Geldiği için Böyle Bir Açıklama Yaptım.
-for ile  ' l ' listesinin elemanlarını tek tek tarıyoruz.
-if ile aldığımız elemanlar hala liste halinde mi yoksa eleman halinde mi. isinstance bunu sorguluyor. Eğer hala liste halinde ise tekrar
-elemanları listeden çıkarmak için if bloğu içerisinde tekrar flatten fonsiyonun çağırıyorum. Flatten fonksiyonu içerisinde Flatten fonsiyonunu
-tekrar tekrar çağırıyoruz. Taki elemanlar liste halinde değilde tek düz halde olsun. Liste halinde değilse elemanları lnew.append(i) ile lnew listesine ekliyoruz.
+# for ile  ' l ' listesinin elemanlarını tek tek tarıyoruz.
+# if ile aldığımız elemanlar hala liste halinde mi yoksa eleman halinde mi. isinstance bunu sorguluyor. Eğer hala liste halinde ise tekrar
+# elemanları listeden çıkarmak için if bloğu içerisinde tekrar flatten fonsiyonun çağırıyorum. Flatten fonksiyonu içerisinde Flatten fonsiyonunu
+# tekrar tekrar çağırıyoruz. Taki elemanlar liste halinde değilde tek düz halde olsun. Liste halinde değilse elemanları lnew.append(i) ile lnew listesine ekliyoruz.
 
 Örnek: l = [[1,'a',['cat'],2],[[[3]],'dog'],4,5]
 
